@@ -2,6 +2,8 @@
 
 A lightweight Obsidian community plugin for incrementing a note's version property. Each note owns its configuration in a `version-buttons` fenced code block. No dependency on dataview or other external plugins.
 
+![Demo](./examples/demo.gif)
+
 ## Features
 
 - One-, two-, or three-component numeric versions (`3`, `2.4`, `2.4.7`).
