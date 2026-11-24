@@ -1,0 +1,33 @@
+.version-buttons-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--size-4-2);
+  margin-block: var(--size-4-2) var(--size-4-3);
+}
+
+.version-buttons-button {
+  min-height: var(--input-height);
+  padding: var(--size-2-2) var(--size-4-3);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--button-radius);
+  background: var(--interactive-normal);
+  color: var(--text-normal);
+  font-size: var(--font-ui-small);
+  font-weight: var(--font-semibold);
+  cursor: pointer;
+}
+
+.version-buttons-button:hover:not(:disabled) {
+  background: var(--interactive-hover);
+}
+
+.version-buttons-button:disabled {
+  opacity: 0.55;
+  cursor: progress;
+}
+
+.version-buttons-error {
+  color: var(--text-error);
+  font-size: var(--font-ui-small);
+}

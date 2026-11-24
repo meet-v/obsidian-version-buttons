@@ -1,0 +1,14 @@
+{
+  "id": "version-buttons",
+  "name": "Version Buttons",
+  "version": "1.0.0",
+  "minAppVersion": "1.13.0",
+  "description": "Increment note-specific major, minor, and patch version properties using buttons or commands.",
+  "author": "Meet Vekaria",
+  "authorUrl": "https://github.com/meet-v",
+  "fundingUrl": {
+      "Buy Me a Coffee": "https://buymeacoffee.com/meet.v",
+      "GitHub Sponsor": "https://github.com/sponsors/meet-v"
+  },
+  "isDesktopOnly": false
+}
