@@ -1,6 +1,6 @@
 # Version Buttons
 
-A lightweight Obsidian community plugin for incrementing a note's version property. Each note owns its configuration in a `version-buttons` fenced code block; no Dataview dependency or vault-wide version policy is required.
+A lightweight Obsidian community plugin for incrementing a note's version property. Each note owns its configuration in a `version-buttons` fenced code block. No dependency on dataview or other external plugins.
 
 ## Features
 
@@ -15,7 +15,7 @@ A lightweight Obsidian community plugin for incrementing a note's version proper
 
 ## Quick start
 
-1. Install the plugin in `.obsidian/plugins/version-buttons/` (or build it locally; see [Development](#development)).
+1. Install the plugin in `.obsidian/plugins/version-buttons/` (or build it locally.
 2. Add a `version-buttons` block immediately after the note's YAML frontmatter.
 3. Open the note in Reading View to see the buttons.
 4. Optionally assign shortcuts to **Version Buttons: Increment major/minor/patch version component** in Obsidian's Hotkeys settings.
@@ -44,8 +44,6 @@ version: "1.4.8"
 # Note content starts here
 ````
 
-See [`docs/CONFIGURATION.md`](docs/CONFIGURATION.md) for the complete schema and examples.
-
 ## Behaviour
 
 - Incrementing component 1 increments the first number and resets all following numbers to zero.
@@ -60,8 +58,8 @@ See [`docs/CONFIGURATION.md`](docs/CONFIGURATION.md) for the complete schema and
 ## Compatibility and limitations
 
 - Rendering is currently supported in **Reading View** using Obsidian's public Markdown code-block processor API.
-- **Live Preview and Source mode do not render the button bar.** Commands work in Markdown Source mode because they read the active editor's Markdown source. Live Preview rendering is a separate CodeMirror 6 milestone and is not represented as supported in this release.
-- Desktop and mobile are targeted; validate on the Obsidian versions/devices you support before publishing.
+- **Live Preview and Source mode do not render the button bar.** Commands work in Markdown Source mode because they read the active editor's Markdown source.
+- Desktop and mobile are targeted.
 
 ## Development
 
